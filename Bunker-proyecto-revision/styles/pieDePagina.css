@@ -1,0 +1,47 @@
+.pieDePagina {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.pieDePagina_contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pieDePagina_logo h2 {
+    font-size: 30px;
+    color: #f2c814;
+    text-shadow: 4px 2px 4px rgba(255, 255, 255, 0.5);
+}
+
+.pieDePagina_enlaces ul {
+    list-style: none;
+    padding: 20px;
+    margin: 20px;
+}
+
+.pieDePagina_enlaces li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.pieDePagina_enlaces a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.pieDePagina_enlaces a:hover {
+    color: #f2c814;
+}
+
+.pieDePagina_derechos {
+    font-size: 16px; 
+    margin-top: 40px; 
+}

@@ -1,0 +1,51 @@
+.horarios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(/images/Fondo-Horarios.jpg), lightgray 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+.horarios_titulo {
+    margin: 50px;
+    font-size: 90px;
+    text-align: center;
+    text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.horarios_titulo-color {
+    color: #f2c814;
+    font-weight: bolder;
+}
+
+.horarios_subtitulo {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+table {
+    width: 50%;
+    margin: 20px;
+    border-collapse: collapse;
+    font-weight: 800;
+    background-color: rgba(0, 0, 0, 0.60);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    font-size: 18px;
+}
+
+th {
+    background-color: #f2c814;
+    color: #000;
+    font-size: 20px;
+}
